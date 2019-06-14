@@ -1,0 +1,85 @@
+.modal-body{
+  color: #767676;
+  text-align: center;
+}
+.modal-body .expression{
+  display: block;
+  margin: 0 auto;
+  width: 56px;
+}
+.modal-body .integral{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  color: #333333;
+}
+.modal-body .getIntegral{
+  display: block;
+  color: #666666;
+  font-size: 16px;
+}
+.modal-body .channel{
+  padding: 13px 40px 20px 40px;
+}
+.modal-body .channel a{
+  color: #485eff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modal-body .channel p{
+  text-align: justify;
+  font-size: 14px;
+  color: #333333;
+  padding: 7px 0;
+  line-height:22px;
+}
+.modal-body .btnTwo{
+  height: 35px;
+  line-height: 35px;
+  width: 123px;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  background: #485eff;
+  color: #ffffff;
+  margin: 20px 0 47px 0;
+}
+.modal-body{
+  position: relative;
+}
+.modal-body .wro{
+  position: absolute;
+  right: 24px;
+  top: 17px;
+}
+
+@media screen and (max-width: 375px) {
+  .modal-body .expression{
+    width: 44px;
+  }
+  .modal-body .integral{
+    padding-top: 11px;
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+  .modal-body .getIntegral{
+    font-size: 15px;
+  }
+  .modal-body .channel{
+    padding: 6px 20px;
+  }
+  .modal-body .channel p{
+    font-size: 14px;
+    padding: 5px 0;
+    line-height:20px;
+  }
+  .modal-body .btnTwo{
+    height: 32px;
+    line-height: 32px;
+    width: 112px;
+    font-size: 15px;
+    margin: 25px 0 29px 0;
+  }
+}

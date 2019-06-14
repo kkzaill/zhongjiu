@@ -1,0 +1,67 @@
+.overTwo{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background-color: rgba(145,152, 159, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overTwo .tanchuang{
+  width: 313px;
+  border: 1px solid #b2b2b2;
+  color: #767676;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.overTwo .tanchuang img{
+  width: 51px;
+  margin-top: 27.7px;
+}
+.overTwo .tanchuang .jianche{
+  display: block;
+  padding-top: 11.11px;
+  padding-bottom: 29.8px;
+  font-size: 15px;
+  color: #333333;
+}
+.overTwo .tanchuang .jiancheTwo{
+  display: block;
+  color: #666666;
+  font-size: 14px;
+}
+.channel{
+  padding: 6.25px 20.8px;
+}
+.channel a{
+  color: #485eff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.channel p{
+  text-align: justify;
+  font-size: 13px;
+  color: #333333;
+  padding: 5.2px 0;
+  line-height:22px;
+}
+.overTwo .tanchuang .btnTwo{
+  height: 32.28px;
+  line-height: 32.28px;
+  width: 111.8px;
+  margin-top: 0.2rem;
+  font-size: 0.42rem;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border-radius: 4px;
+  background: #485eff;
+  color: #ffffff;
+  margin: 25px 0 29.167px 0;
+}
+.overTwo .pc_tanchuang .wro{
+  position: absolute;
+}
